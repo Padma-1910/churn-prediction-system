@@ -50,7 +50,28 @@ pip install -r requirements-dev.txt
 - [ ] Phase 11: Documentation
 
 ## Results
-(to be added after Phase 5)
+## Model Evaluation Results
+
+### Cross-Validation Performance
+
+All five models were evaluated using 5-fold Stratified Cross-Validation with identical folds.
+
+| Model | CV ROC-AUC | CV PR-AUC |
+|---|---:|---:|
+| Logistic Regression | 0.8484 | 0.6675 |
+| Gradient Boosting | 0.8461 | 0.6601 |
+| Random Forest | 0.8453 | 0.6622 |
+| XGBoost | 0.8392 | 0.6583 |
+| Decision Tree | 0.8268 | 0.6089 |
+
+### Model Comparison
+
+![Model Comparison](reports/model_comparison_cv.png)
+
+### ROC Curves
+
+![ROC Curves](reports/roc_curves.png)
+
 
 ## Live Demo
 (to be added after Phase 10)
