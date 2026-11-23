@@ -1,0 +1,14 @@
+{
+  "model_name": "gradient_boosting",
+  "threshold": 0.62,
+  "low_max": 0.37,
+  "high_min": 0.82,
+  "score_is_calibrated": false,
+  "sklearn_version": "1.9.1",
+  "xgboost_version": "3.4.1",
+  "assumptions": {
+    "cost_missed_churner": 500,
+    "cost_offer": 50,
+    "save_rate": 0.3
+  }
+}
