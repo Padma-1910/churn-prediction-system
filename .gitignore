@@ -6,3 +6,4 @@ __pycache__/
 .DS_Store
 .vscode/models/candidate_*.joblib
 models/candidate_*.joblib
+venv311/
