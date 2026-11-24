@@ -1,0 +1,9 @@
+venv/
+venv311/
+.git/
+.pytest_cache/
+__pycache__/
+**/__pycache__/
+notebooks/
+tests/
+models/candidate_*.joblib
