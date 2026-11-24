@@ -1,4 +1,3 @@
-# Customer Churn Prediction System
 ---
 title: Customer Churn Prediction
 emoji: 📉
